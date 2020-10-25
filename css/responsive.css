@@ -1,0 +1,1362 @@
+        @media only screen and (max-width:2560px) {
+            .h-container {
+                height: 100vh;
+                width: 100vw;
+            }
+            .navbar .site-title {
+                font-family: var(--roboto);
+                font-weight: 700;
+                color: white !important;
+                font-size: 5em;
+            }
+            header .nav-item:last-child {
+                padding-right: 5em;
+            }
+            .nav-item {
+                font-size: 2em;
+            }
+            .nav-item>.btn {
+                padding: 10px 30px;
+                font-size: 30px;
+            }
+            .nav-item {
+                padding: 15px;
+            }
+            .info-container {
+                width: 900px;
+                height: 700px;
+                top: 50%;
+                left: 60%;
+            }
+            .content {
+                padding: 5em;
+                width: 900px;
+                height: 100px;
+            }
+            .content h1 {
+                width: 700px;
+                height: 100px;
+                font-size: 100px;
+                margin-bottom: 1em;
+            }
+            .feature p {
+                width: 800px;
+                height: 0;
+                text-align: left;
+                font-size: 50px;
+                color: white;
+            }
+            span {
+                margin: 1em;
+            }
+            .content a {
+                padding: 15px 15px;
+                font-size: 40px;
+                background: linear-gradient( #ff00c8, #ff00c8);
+            }
+            .content a:hover {
+                box-shadow: rgb(248, 0, 227);
+            }
+            .bike-container {
+                width: 800px;
+                height: 1500px;
+                left: 11%;
+                top: 85%;
+            }
+            .bike-pic>img {
+                height: 800px;
+                width: 900px;
+            }
+            /* .controller {
+        top: 45%;
+        right: 10em;
+    } */
+            .thumbnail {
+                max-width: 150px;
+                max-height: 150px;
+            }
+            .thumbnail-img {
+                top: 85%;
+                left: 11%;
+            }
+            .contents>h1 {
+                font-size: 5em;
+            }
+            .contents .cards .card {
+                margin: 1vmin;
+                width: 35rem;
+            }
+            .card .card-title {
+                padding: 2rem 5rem;
+            }
+            .card-body>a {
+                padding: 10px 50px;
+                font-size: 20px;
+                /* margin: 20em 10px; */
+            }
+            .about-bike {
+                top: 5%;
+                left: 30%;
+            }
+            .about-bike>img {
+                width: 658;
+                height: 76;
+            }
+            .Section-2 p {
+                font-size: 30px;
+            }
+            .Section-2>.container {
+                padding: 0;
+                /* margin: 0; */
+                margin-left: 0;
+                margin-top: 0;
+                width: 100%;
+            }
+            .box {
+                width: 2200px;
+                grid-gap: 5em;
+            }
+            .Our-bikes h1 {
+                font-size: 5em;
+            }
+            .bike-cards {
+                width: 700px;
+                height: 750px;
+            }
+            .bike-cards:hover .imgBx {
+                bottom: 150px;
+            }
+            .bike-cards .details {
+                bottom: 55px;
+            }
+            .bike-cards .details h2 {
+                font-size: 40px;
+            }
+            .bike-cards.details a {
+                font-size: 35px;
+            }
+            .center {
+                font-size: 35px;
+            }
+            .section-4>h1 {
+                font-size: 5em;
+            }
+            .contact-form {
+                padding: 60px;
+            }
+            .contact-form-txt {
+                height: 60px;
+                font-size: 25px;
+            }
+            .contact-form-textarea {
+                font-size: 25px;
+            }
+            .contact-form-btn {
+                font-size: 2em;
+            }
+            .footer-bottom p {
+                font-size: 25px;
+            }
+            .footer .footer-content h1 {
+                font-size: 35px;
+                opacity: 0.5;
+            }
+            .footer .footer-content p {
+                font-size: 25px;
+                line-height: 35px;
+                margin-left: 7em;
+            }
+            .footer .footer-content .links ul a li {
+                font-size: 25px;
+            }
+        }
+        
+        @media only screen and (max-width:1920px) {
+            .navbar .site-title {
+                font-family: var(--roboto);
+                font-weight: 700;
+                color: white;
+                font-size: 3em;
+            }
+            header .nav-item:last-child {
+                padding-right: 5em;
+            }
+            .nav-item {
+                font-size: 2em;
+            }
+            .nav-item>.btn {
+                padding: 5px 20px;
+                font-size: 30px;
+            }
+            .nav-item {
+                padding: 15px;
+            }
+            .info-container {
+                width: 900px;
+                height: 500px;
+                top: 60%;
+                left: 50%;
+            }
+            .content {
+                padding: 3em;
+            }
+            .content h1 {
+                margin-left: 50px;
+                width: 700px;
+                height: 100px;
+                font-family: var(--roboto);
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 3px;
+                text-align: center;
+                font-size: 70px;
+                color: white;
+            }
+            .feature p {
+                width: 800px;
+                text-align: left;
+                /* align-items: center; */
+                font-size: 40px;
+                margin-top: 1em;
+                margin-left: 3em;
+                color: white;
+            }
+            span {
+                margin: 1em;
+            }
+            .bike-container {
+                width: 800px;
+                height: 1500px;
+                left: 10%;
+                top: 85%;
+            }
+            .bike-pic>img {
+                height: 800px;
+                width: 900px;
+            }
+            .thumbnail {
+                max-width: 120px;
+                max-height: 120px;
+            }
+            .thumbnail-img {
+                top: 85%;
+                left: 11%;
+            }
+            .contents>h1 {
+                font-size: 5em;
+            }
+            .contents .cards .card {
+                margin: 1vmin;
+                width: 25rem;
+            }
+            /* .card .card-title {
+        padding: 2rem 5rem;
+    } */
+            .card-body>a {
+                padding: 10px 50px;
+                font-size: 20px;
+                /* margin: 20em 10px; */
+            }
+            .about-bike {
+                top: 10%;
+                left: 5%;
+            }
+            .about-bike>img {
+                width: 220%;
+                height: 220%;
+            }
+            .Section-2 p {
+                font-size: 30px;
+            }
+            /* .Section-2>.container {
+    padding: 0;
+    margin: 0;
+} */
+            /* margin-left: 0;
+        margin-top: 0;
+        width: 100%; */
+            .box {
+                width: 1800px;
+                grid-gap: 5em;
+            }
+            .Our-bikes h1 {
+                font-size: 5em;
+            }
+            .bike-cards {
+                width: 500px;
+                height: 550px;
+            }
+            /* uncheck if necessary */
+            /* .bike-cards:hover .imgBx {
+    bottom: 150px;
+} */
+            /* .bike-cards .details {
+    bottom: 55px;
+} */
+            .bike-cards .details h2 {
+                font-size: 20px;
+            }
+            /* .bike-cards.details a {
+    font-size: 35px;
+} */
+            .center {
+                font-size: 25px;
+                text-align: center;
+            }
+            .section-4>h1 {
+                font-size: 5em;
+            }
+            .contact-form {
+                padding: 60px;
+            }
+            .contact-form-txt {
+                height: 60px;
+                font-size: 25px;
+            }
+            .contact-form-textarea {
+                font-size: 25px;
+            }
+            .contact-form-btn {
+                font-size: 2em;
+            }
+            .footer-bottom p {
+                font-size: 25px;
+            }
+            .footer .footer-content h1 {
+                font-size: 35px;
+                opacity: 0.5;
+            }
+            .footer .footer-content p {
+                font-size: 25px;
+                line-height: 35px;
+                margin-left: 7em;
+            }
+            .footer .footer-content .links ul a li {
+                font-size: 20px;
+            }
+        }
+        
+        @media only screen and (max-width:1440px) {
+            .navbar .site-title {
+                font-family: var(--roboto);
+                font-weight: 700;
+                color: white;
+                font-size: 2em;
+            }
+            header .nav-item:last-child {
+                padding-right: 2em;
+            }
+            .nav-item {
+                font-size: 1.5em;
+            }
+            .nav-item>.btn {
+                padding: 5px 20px;
+                font-size: 20px;
+            }
+            .nav-item {
+                padding: 13px;
+            }
+            .info-container {
+                width: 600px;
+                height: 700px;
+            }
+            .content {
+                padding: 3em;
+                width: 600px;
+                height: 500px;
+            }
+            .content h1 {
+                height: 0px;
+                text-align: left;
+                margin-left: 30px;
+                padding: 0;
+                width: 600px;
+                height: 120px;
+                font-size: 70px;
+                color: white;
+            }
+            .feature p {
+                width: 600px;
+                /* height: 50px; */
+                margin-left: 0;
+                text-align: left;
+                font-size: 35px;
+                margin-top: 1em;
+                /* margin-left: 70px; */
+                color: white;
+            }
+            span {
+                margin: 1em;
+            }
+            .bike-container {
+                width: 800px;
+                height: 1500px;
+                left: 5%;
+                top: 90%;
+            }
+            .bike-pic>img {
+                height: 600px;
+                width: 700px;
+            }
+            .thumbnail {
+                max-width: 120px;
+                max-height: 120px;
+            }
+            .thumbnail-img {
+                top: 85%;
+                left: 11%;
+            }
+            .contents>h1 {
+                font-size: 3em;
+            }
+            .contents .cards .card {
+                margin: 1vmin;
+                width: 30rem;
+            }
+            .card .card-title {
+                padding: 2rem 5rem;
+            }
+            .card-body>a {
+                padding: 10px 50px;
+                font-size: 20px;
+                /* margin: 20em 10px; */
+            }
+            .about-bike {
+                top: 25%;
+                /* left: 30%; */
+            }
+            .about-bike>img {
+                width: 150%;
+                height: 150%;
+            }
+            .Section-2 p {
+                font-size: 20px;
+            }
+            .Section-2>.container {
+                padding: 0;
+                /* margin: 0; */
+                margin-left: 0;
+                margin-top: 0;
+                width: 100%;
+            }
+            .box {
+                width: 1100px;
+                grid-gap: 1em;
+            }
+            .Our-bikes h1 {
+                font-size: 5em;
+            }
+            .bike-cards {
+                width: 300px;
+                height: 350px;
+            }
+            .bike-cards:hover .imgBx {
+                bottom: 150px;
+            }
+            .bike-cards .details {
+                bottom: 55px;
+            }
+            .bike-cards .details h2 {
+                font-size: 40px;
+            }
+            .bike-cards.details a {
+                font-size: 35px;
+            }
+            .center {
+                font-size: 35px;
+            }
+            .section-4>h1 {
+                font-size: 5em;
+            }
+            .contact-form {
+                padding: 25px;
+            }
+            .contact-form-txt {
+                height: 40px;
+                font-size: 15px;
+            }
+            .contact-form-textarea {
+                font-size: 15px;
+            }
+            .contact-form-btn {
+                font-size: 1.5em;
+            }
+            .footer-bottom p {
+                font-size: 15px;
+            }
+            .footer .footer-content h1 {
+                font-size: 25px;
+                opacity: 0.5;
+            }
+            .footer .footer-content p {
+                font-size: 15px;
+                line-height: 35px;
+                margin-left: 8em;
+            }
+            .footer .footer-content .links ul a li {
+                font-size: 15px;
+                margin-left: 32em;
+            }
+            .footer .footer-content .links ul a li:hover {
+                margin-left: 31em;
+            }
+            .controller {
+                display: none;
+            }
+        }
+        
+        @media only screen and (max-width:1366px) {
+            .h-container {
+                height: 100vh;
+                width: 100%;
+            }
+            .navbar .site-title {
+                font-size: 1.5em;
+            }
+            header .nav-item:last-child {
+                padding-right: 6em;
+            }
+            .nav-item {
+                font-size: 1em;
+            }
+            .nav-item>.btn {
+                padding: 5px 20px;
+                font-size: 10px;
+            }
+            .nav-item {
+                padding: 7px;
+            }
+            .info-container {
+                width: 500px;
+                height: 600px;
+                position: absolute;
+                left: 45%;
+                top: 75%;
+            }
+            .content {
+                text-align: center;
+                width: 600px;
+                height: 400px;
+            }
+            .content h1 {
+                margin-left: 0;
+                width: 400px;
+                height: 20px;
+                font-family: var(--roboto);
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 3px;
+                text-align: center;
+                font-size: 30px;
+                color: white;
+            }
+            .feature p {
+                width: 400px;
+                text-align: center;
+                font-size: 20px;
+                margin-bottom: 3em;
+                color: white;
+            }
+            span {
+                margin: 1em;
+            }
+            .content a {
+                margin-left: -5em;
+                padding: 10px 10px;
+                color: white;
+                text-align: center;
+                text-decoration: none;
+                font-size: 20px;
+                letter-spacing: 2px;
+                border-radius: 5px;
+                font-family: var(--montserrat);
+                font-weight: 600;
+                background: linear-gradient(90deg, #ff00c8, #ff00c8);
+            }
+            .content a:hover {
+                box-shadow: 0 2px 10px rgb(248, 0, 227);
+            }
+            .bike-container {
+                width: 800px;
+                height: 1100px;
+                top: 100%;
+            }
+            .bike-pic>img {
+                height: 490px;
+                width: 550px;
+            }
+            .thumbnail {
+                max-width: 80px;
+                max-height: 80px;
+            }
+            .thumbnail-img {
+                top: 85%;
+                left: 6%;
+            }
+            .controller {
+                width: 1px;
+                height: 280px;
+                display: block;
+                background: #c0c0c0;
+                position: absolute;
+                top: 55%;
+                right: 40px;
+                transform: translateY(-50%);
+            }
+            .contents>h1 {
+                font-size: 3em;
+            }
+            .contents .cards .card {
+                /* margin: 1vmin; */
+                width: 17em;
+            }
+            .card .card-title {
+                padding: 1rem 2rem;
+            }
+            .card-body>a {
+                padding: 10px 50px;
+                font-size: 10px;
+                /* margin: 20em 10px; */
+            }
+            .about-bike {
+                left: 25%;
+                top: 10%;
+            }
+            .about-bike>img {
+                width: 110%;
+                height: 100%;
+            }
+            .Section-2 p {
+                font-size: 15px;
+            }
+            .Section-2>.container {
+                padding: 0;
+                /* margin: 0; */
+                margin-left: 0;
+                margin-top: 0;
+                width: 100%;
+            }
+            .box {
+                width: 1100px;
+                grid-gap: 1em;
+            }
+            .Our-bikes h1 {
+                font-size: 3em;
+            }
+            .bike-cards:hover .imgBx {
+                bottom: 100px;
+            }
+            .bike-cards .details {
+                bottom: 10px;
+            }
+            .bike-cards .details h2 {
+                font-size: 20px;
+            }
+            .bike-cards.details a {
+                font-size: 15px;
+            }
+            .center {
+                font-size: 15px;
+            }
+            .section-4>h1 {
+                font-size: 3em;
+            }
+            .contact-form {
+                padding: 25px;
+            }
+            .contact-form-txt {
+                height: 30px;
+                font-size: 15px;
+            }
+            .contact-form-textarea {
+                font-size: 15px;
+            }
+            .contact-form-btn {
+                font-size: 1em;
+            }
+            .footer-bottom p {
+                font-size: 15px;
+            }
+            .footer .footer-content h1 {
+                font-size: 15px;
+                opacity: 0.5;
+                margin-left: 80px;
+            }
+            .footer .footer-content p {
+                font-size: 10px;
+                line-height: 20px;
+                margin-left: 8em;
+            }
+            .footer .footer-content .links ul a li {
+                font-size: 10px;
+                margin-right: 115px;
+            }
+        }
+        
+        @media only screen and (max-width:1024px) {
+            header .nav-item:last-child {
+                padding-right: 1em;
+            }
+            .nav-item>.btn {
+                font-size: 1em;
+            }
+            .navbar-nav-color {
+                z-index: 1;
+            }
+            header .navbar-brand {
+                padding-left: 2rem;
+                font-size: 1rem;
+            }
+            .nav-item {
+                font-size: 1.5em;
+            }
+            .nav-item {
+                padding: 10px;
+            }
+            .header-part {
+                display: block;
+            }
+            .controller {
+                display: none;
+            }
+            .info-container {
+                width: 660px;
+                height: 600px;
+                position: absolute;
+                left: 10%;
+                top: 82%;
+            }
+            .content {
+                text-align: center;
+                width: 600px;
+                height: 400px;
+            }
+            .content h1 {
+                width: 600px;
+                height: 50px;
+                font-size: 50px;
+                color: white;
+            }
+            .feature p {
+                width: 600px;
+                height: 0;
+                text-align: center;
+                font-size: 35px;
+                margin-bottom: 2.5em;
+                color: white;
+            }
+            span {
+                margin: 1em;
+            }
+            .content a {
+                padding: 10px 10px;
+                color: white;
+                margin-left: 5em;
+                font-size: 30px;
+            }
+            .bike-pic>img {
+                height: 700px;
+                width: 800px;
+            }
+            .bike-container {
+                width: 700px;
+                height: 800px;
+                position: absolute;
+                left: 40%;
+                top: 10%;
+                transform: translateX(-50%);
+                overflow: hidden;
+            }
+            .thumbnail-img {
+                position: absolute;
+                /* position: absolute; */
+                top: 85%;
+                left: 15%;
+            }
+            .thumbnail {
+                max-width: 150px!important;
+                max-height: 500px !important;
+            }
+            .controller {
+                width: 1px;
+                height: 280px;
+                display: block;
+                background: #c0c0c0;
+                position: absolute;
+                top: 55%;
+                right: 40px;
+                transform: translateY(-50%);
+            }
+            .section-2 {
+                display: block;
+            }
+            .about-bike>img {
+                width: 110%;
+                height: 130%;
+            }
+            .Section-2>.containers>.row>.col-md-6>.panel {
+                padding: 0;
+            }
+            .panel {
+                margin: 0;
+            }
+            .box {
+                width: 800px;
+                display: block;
+            }
+            .bike-cards {
+                width: 500px;
+                height: 550px;
+                margin-bottom: 3em;
+            }
+            .bike-cards .details h2 {
+                font-size: 20px;
+            }
+            .bike-cards:hover .imgBx {
+                bottom: 120px;
+            }
+            .bike-cards .details {
+                position: absolute;
+                left: 10px;
+                right: 10px;
+                bottom: 12px;
+                height: 90px;
+                text-align: center;
+            }
+            .footer .footer-content {
+                width: 100%;
+            }
+            .footer .footer-content .footer-Section {
+                padding: 0px;
+                padding-top: 2em;
+            }
+            .footer .footer-content .links {
+                width: 50%;
+            }
+            .footer .footer-content .links ul a li {
+                margin-left: 32em;
+            }
+            .footer .footer-content .links ul a li:hover {
+                margin-left: 31em;
+            }
+        }
+        
+        @media only screen and (max-width:768px) {
+            .navbar-nav {
+                float: right;
+            }
+            .site-title {
+                padding-left: 1em;
+                font-size: 15em;
+            }
+            .nav-item>.btn {
+                font-size: 1em;
+            }
+            header .nav-item:last-child {
+                padding: 0;
+            }
+            .mr-auto {
+                display: none;
+            }
+            .navbar-nav-color {
+                background-color: rgba(0, 0, 0, 0.5);
+            }
+            .bike-container {
+                width: 500;
+                height: 1000;
+            }
+            .info-container {
+                width: 500px;
+                height: 600px;
+                position: absolute;
+                left: 12%;
+                top: 85%;
+            }
+            .bike-container {
+                left: 55%;
+            }
+            .bike-pic>img {
+                height: 500px;
+                width: 600px;
+            }
+            .content {
+                text-align: center;
+                width: 600px;
+                height: 400px;
+            }
+            .content h1 {
+                width: 400px;
+                height: 20px;
+                font-size: 40px;
+                color: white;
+                margin-left: 1em;
+            }
+            .feature p {
+                width: 500px;
+                text-align: center;
+                font-size: 30px;
+                margin-bottom: 3em;
+                color: white;
+            }
+            span {
+                margin: 0.5em;
+            }
+            .controller {
+                display: none;
+            }
+            .content a {
+                padding: 10px 10px;
+                color: white;
+                font-size: 20px;
+                margin: 0px;
+            }
+            .thumbnail {
+                max-width: 110px !important;
+                max-height: 110px !important;
+                margin: 7px;
+            }
+            .about-bike>img {
+                width: 300px;
+            }
+            .about-bike {
+                top: 20%;
+                left: 10%;
+            }
+            .box {
+                width: 500px;
+            }
+            .center {
+                font-size: 2em;
+            }
+            .footer .footer-content {
+                width: 100%;
+            }
+            .footer .footer-content .footer-Section {
+                padding: 0px;
+                padding-top: 2em;
+                margin-left: -4em;
+            }
+            .footer .footer-content .links {
+                width: 30%!important;
+            }
+            .About p {
+                margin-left: 2em;
+                font-size: 5px;
+            }
+            .footer .footer-content .links ul a li {
+                margin-left: 25em;
+            }
+        }
+        
+        @media only screen and (max-width:425px) {
+            .navbar-nav {
+                float: right;
+                height: auto;
+            }
+            .site-title {
+                font-size: 2em !important;
+            }
+            .nav-item>.btn {
+                font-size: 1em;
+            }
+            .navbar-toggler {
+                margin-left: 5em;
+            }
+            .bike-container {
+                width: auto;
+                height: auto;
+                top: 15%;
+                left: 70%;
+            }
+            .bike-pic>img {
+                height: 300px;
+                width: 400px;
+            }
+            .info-container {
+                width: 400px;
+                height: 400px;
+                left: 0%;
+                top: 75%;
+            }
+            .content {
+                text-align: center;
+                width: 400px;
+                height: 400px;
+                left: 0%;
+            }
+            .content h1 {
+                width: 400px;
+                height: 20px;
+                font-size: 40px;
+                color: white;
+                margin-left: -1em;
+            }
+            .feature p {
+                width: 500px;
+                text-align: center;
+                margin-left: -3em;
+                font-size: 30px;
+                margin-bottom: 3em;
+                color: white;
+            }
+            span {
+                margin: 0.2em;
+            }
+            .controller {
+                display: none;
+            }
+            .thumbnail {
+                max-width: 70px !important;
+                max-height: 70px !important;
+                margin: 7px;
+            }
+            .thumbnail-img {
+                top: 90%;
+                left: 10%;
+            }
+            .bike-container {
+                width: 400px;
+                height: 400px;
+                left: 50%;
+                top: 20%;
+            }
+            .about-bike>img {
+                width: 300px;
+            }
+            .about-bike {
+                top: 20%;
+                left: 15%;
+            }
+            .section-2 {
+                margin-bottom: 3em;
+            }
+            .section-3 {
+                margin-top: 18em;
+            }
+            .bike-cards {
+                width: 300px;
+                height: 400px;
+            }
+            .box {
+                width: 300px;
+            }
+            /* .center {
+                font-size: 2em;
+            } */
+            .section-4 {
+                display: block;
+            }
+            .contact-in {
+                width: 90%;
+                display: block;
+            }
+            .contact-map {
+                padding-bottom: 0px;
+                margin-bottom: -10px;
+            }
+            .contact-map iframe {
+                border-radius: 5px 5px 0 0;
+            }
+            .contact-form {
+                border-radius: 0 0 5px 5px !important;
+            }
+            .footer .footer-content {
+                width: 100%;
+            }
+            .footer .footer-content .footer-Section {
+                padding: 0px;
+                padding-top: 2em;
+                margin-left: -4em;
+            }
+            .footer .footer-content .links {
+                width: 30%!important;
+            }
+            .About p {
+                margin-left: 2em;
+                font-size: 5px;
+            }
+            .footer .footer-content .links ul a li {
+                margin-left: 20em;
+            }
+        }
+        
+        @media only screen and (max-width:375px) {
+            .site-title {
+                font-size: 1em !important;
+            }
+            .nav-item>.btn {
+                font-size: 1em;
+            }
+            .bike-container {
+                width: 350px !important;
+                height: 400px;
+                top: 15% !important;
+                left: 70%;
+            }
+            .bike-pic>img {
+                height: 300px;
+                width: 350px;
+            }
+            .info-container {
+                width: 350px;
+                height: 300px;
+                left: 0%;
+                top: 75%;
+            }
+            .content {
+                width: auto;
+                height: auto;
+            }
+            .content h1 {
+                width: 300px;
+                height: 20px;
+                font-size: 30px;
+                color: white;
+            }
+            .feature p {
+                margin-left: -6em;
+                text-align: center;
+                font-size: 22px;
+                margin-bottom: 3em;
+                color: white;
+            }
+            .content a {
+                margin-left: -6em;
+            }
+            span {
+                margin: 0.2em;
+            }
+            .controller {
+                display: none;
+            }
+            .thumbnail {
+                max-width: 50px !important;
+                max-height: 50px !important;
+                margin: 5px;
+            }
+            .bike-container {
+                width: 400px;
+                height: 400px;
+                left: 50%;
+                top: 20%;
+            }
+            .contents h1 {
+                font-size: 20px;
+            }
+            .about-bike>img {
+                width: 300px;
+            }
+            .about-bike {
+                top: 20%;
+                left: 5% !important;
+            }
+            .section-2 {
+                margin-bottom: 3em;
+            }
+            .section-3 {
+                margin-top: 18em;
+            }
+            .Our-bikes h1 {
+                font-size: 20px;
+            }
+            .section-4 h1 {
+                font-size: 20px;
+            }
+            .bike-cards {
+                width: 300px;
+                height: 400px;
+            }
+            .box {
+                width: 300px;
+            }
+            /* .center {
+                font-size: 2em;
+            } */
+            .section-4 {
+                display: block;
+            }
+            .center {
+                font-size: 20px;
+            }
+            .contact-in {
+                display: block;
+            }
+            .contact-form {
+                border-radius: 5px;
+            }
+            .footer .footer-content {
+                width: 100%;
+            }
+            .footer .footer-content .footer-Section {
+                padding: 0px;
+                padding-top: 2em;
+                margin-left: -4em;
+            }
+            .footer .footer-content .links {
+                width: 50%;
+            }
+            .About p {
+                margin-left: 2em;
+                font-size: 5px;
+            }
+            .footer .footer-content .links ul a li {
+                margin-left: 15em;
+            }
+            .footer .footer-content .links ul a li:hover {
+                margin-left: 14em;
+            }
+        }
+        
+        @media only screen and (max-width:320px) {
+            .site-title {
+                font-size: 1em !important;
+            }
+            .nav-item>.btn {
+                font-size: 1em;
+            }
+            .navbar-toggler {
+                padding: 0rem !important;
+            }
+            .bike-container {
+                width: 300px !important;
+                height: 350px;
+                top: 15% !important;
+                left: 70%;
+            }
+            .bike-pic>img {
+                height: 250px !important;
+                width: 300px !important;
+            }
+            .info-container {
+                width: 300px;
+                height: 300px;
+                left: 0%;
+                top: 75%;
+            }
+            .content {
+                width: 310 !important;
+                height: auto;
+            }
+            .content h1 {
+                width: 300px;
+                height: 20px;
+                font-size: 30px;
+                color: white;
+            }
+            .feature p {
+                margin-left: -7em;
+                text-align: center;
+                font-size: 20px;
+                margin-bottom: 3em;
+                color: white;
+            }
+            .content a {
+                margin-left: -6em;
+            }
+            span {
+                margin: 0.2em;
+            }
+            .controller {
+                display: none;
+            }
+            .thumbnail {
+                max-width: 50px;
+                max-height: 50px;
+                margin: 4px;
+            }
+            .bike-container {
+                width: 400px;
+                height: 400px;
+                left: 50%;
+                top: 20%;
+            }
+            .contents h1 {
+                font-size: 20px;
+            }
+            .card-body>a {
+                font-size: 8px;
+            }
+            .about-bike>img {
+                width: 250px;
+            }
+            .about-bike {
+                top: 20%;
+                left: 5% !important;
+            }
+            .section-2 {
+                margin-bottom: 3em;
+            }
+            .section-3 {
+                margin-top: 18em;
+            }
+            .Our-bikes h1 {
+                font-size: 20px;
+            }
+            .section-4 h1 {
+                font-size: 20px;
+            }
+            .bike-cards {
+                width: 200px;
+                height: 250px;
+                margin: 20px;
+            }
+            .box {
+                width: 250px;
+            }
+            .bike-cards:hover .imgBx {
+                bottom: 80px;
+            }
+            .bike-cards .details {
+                left: 10px;
+                right: 10px;
+                bottom: -18px;
+                height: 90px;
+                text-align: center;
+            }
+            .bike-cards .details h2 {
+                padding: 0;
+                font-size: 18px;
+            }
+            .bike-cards .details a {
+                font-size: 10px;
+                padding: 4px;
+            }
+            .section-4 {
+                display: block;
+            }
+            .center {
+                font-size: 20px;
+            }
+            .contact-in {
+                display: block;
+            }
+            .contact-form {
+                border-radius: 5px;
+            }
+            .contact-form-textarea {
+                height: auto;
+                padding: 6px;
+            }
+            .contact-form-btn {
+                width: auto;
+                padding: 5px 10px;
+            }
+            .footer .footer-content {
+                width: 100%;
+            }
+            .footer .footer-content .footer-Section {
+                padding: 0px;
+                padding-top: 2em;
+                margin-left: -4em;
+            }
+            .footer .footer-content .links {
+                width: 50%;
+            }
+            .About p {
+                margin-left: 2em;
+                font-size: 5px;
+            }
+            .footer .footer-content .links ul a li {
+                margin-left: 15em;
+            }
+        }
