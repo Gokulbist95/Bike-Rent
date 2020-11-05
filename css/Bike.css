@@ -18,42 +18,97 @@
     position: relative;
 }
 
-.nav-color {
-    color: white !important;
+nav {
+    position: relative;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 0;
+    font-family: var(--montserrat);
+    height: 8vh;
+    padding: 0 5%;
 }
 
-.navbar .site-title {
-    font-family: var(--roboto);
-    font-weight: 700;
-    color: white !important;
+
+/* LOgo Bike rental */
+
+nav .logo {
+    float: left;
+    width: 40%;
+    /* height: 100%; */
+    display: flex;
+    align-items: center;
+    font-family: var(--montserrat);
+    font-weight: 900;
+    font-size: 25px;
+    color: white;
+    margin-top: 15px;
+    letter-spacing: 1.5px;
 }
 
-.nav-item:last-child {
-    padding-right: 6em;
+
+/* nav */
+
+nav .links {
+    display: flex;
+    float: right;
+    padding: 0px;
+    margin: 0px;
+    width: 40%;
+    height: auto;
+    /* justify-content: space-around; */
+    align-items: center;
 }
 
-.nav-link:hover {
-    color: #ff00c8 !important;
+nav .links li {
+    list-style: none;
 }
 
-.navbar-brand {
-    padding-left: 6rem;
-}
-
-.nav-item>.btn {
-    padding: 2px 20px;
-    margin: 6px 10px;
+nav .links a {
+    display: block;
+    padding: 1em;
+    font-size: 16px;
+    font-weight: bold;
     color: #fff;
     text-decoration: none;
-    /* text-transform: uppercase; */
-    letter-spacing: .5px;
+}
+
+nav .links a:hover {
+    color: #ff00c8;
+}
+
+#nav-toggle {
+    position: absolute;
+    top: -100px;
+}
+
+nav .icon-burger {
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+nav .icon-burger .line {
+    width: 30px;
+    height: 5px;
+    background-color: #fff;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+.book {
+    background: linear-gradient(90deg, #ff00c8, #ff00c8);
+    text-decoration: none;
+    letter-spacing: 2px;
     border-radius: 5px;
     font-family: var(--montserrat);
     font-weight: 600;
-    background: linear-gradient(90deg, #ff00c8, #ff00c8);
+    padding: 5px 15px!important;
 }
 
-.nav-item>.btn:hover {
+.book:hover {
     background: #fff;
     color: #ff00c8;
 }
@@ -270,7 +325,7 @@ main img {
 
 /* responsive */
 
-@media only screen and (max-width:2560px) {
+@media only screen and (min-width:2560px) {
     .navbar .site-title {
         font-size: 5em;
     }
@@ -368,7 +423,7 @@ main img {
     }
 }
 
-@media only screen and (max-width:1920px) {
+@media only screen and (min-width:1920px) {
     .navbar .site-title {
         font-size: 3em;
     }
@@ -487,28 +542,9 @@ main img {
 }
 
 @media only screen and (max-width:1366px) {
-    .navbar .site-title {
-        font-size: 2em!important;
+    nav .links {
+        width: 50%;
     }
-    .nav-item:last-child {
-        padding-right: 6em;
-    }
-    .nav-item {
-        padding: 5px;
-        font-size: 20px;
-    }
-    .nav-link:hover {
-        color: #ff00c8 !important;
-    }
-    .navbar-brand {
-        padding-left: 4rem;
-    }
-    .nav-item>.btn {
-        padding: 1px 15px;
-        margin: 5px 8px;
-        font-size: 20px;
-    }
-    /* Bikes */
     #featured {
         width: 500px;
         height: 500px;
@@ -652,11 +688,8 @@ main img {
 }
 
 @media only screen and (max-width:1024px) {
-    .navbar .site-title {
-        font-size: 1.5em!important;
-    }
-    .nav-item {
-        font-size: 1em;
+    nav .links {
+        width: 60%;
     }
     .content {
         padding: 0em;
@@ -734,19 +767,35 @@ main img {
 }
 
 @media only screen and (max-width:768px) {
-    .navbar-toggler-icon {
-        width: 1em;
-        height: 1em;
-        margin: .5em;
+    nav .logo {
+        float: left;
+        width: auto;
+        justify-content: center;
     }
-    .navbar-toggler {
-        margin-left: 20em;
+    nav .links {
+        float: none;
+        position: fixed;
+        z-index: 9;
+        left: 0;
+        right: 0;
+        top: 70px;
+        bottom: 100%;
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: rgba(0, 0, 0, 0.8);
+        overflow: hidden;
+        transition: all 0.5s ease-in-out;
     }
-    .navbar .site-title {
-        font-size: 1em!important;
+    nav .links a {
+        font-size: 20px;
     }
-    .nav-item {
-        font-size: 1em;
+    nav .icon-burger {
+        display: block;
+    }
+    nav :checked~.links {
+        bottom: 50%;
     }
     .content {
         padding: 0em;
@@ -806,6 +855,137 @@ main img {
     }
     .footer .footer-content .links ul a li:hover {
         margin-left: 18em;
+    }
+}
+
+@media only screen and (max-width:565px) {
+    .navbar-toggler-icon {
+        width: 1em;
+        height: 1em;
+        margin: .5em;
+    }
+    .navbar-toggler {
+        margin-left: 7em;
+    }
+    .navbar .site-title {
+        font-size: 1.5em!important;
+    }
+    .navbar-brand {
+        padding-left: 1rem;
+    }
+    .nav-item {
+        font-size: 1em;
+    }
+    .content {
+        padding: 0em;
+        width: 300px;
+        height: 50px;
+        margin-top: 0em;
+        margin-left: 5em;
+    }
+    .content h1 {
+        width: 300px;
+        height: 100px;
+        font-size: 40px;
+        margin-left: 0em;
+    }
+    .feature p {
+        width: 400px;
+        height: 0em;
+        height: 0;
+        font-size: 25px;
+        margin-left: -2em;
+        margin-bottom: 1em;
+    }
+    span {
+        margin: 10px;
+    }
+    .content a {
+        position: absolute;
+        font-size: 20px;
+        margin-left: 0em;
+        left: 35%!important;
+        top: 115%;
+    }
+    #featured {
+        margin-top: 2em !important;
+        margin-left: 1em;
+        width: 350px;
+        height: 350px;
+    }
+    .thumbnail-imgs {
+        margin-left: 2em;
+        margin-top: 10em!important;
+    }
+    .thumbnail {
+        max-width: 400px;
+        max-height: 400px;
+        margin-top: 5em;
+        margin-left: 5em;
+    }
+    .thumbnails {
+        object-fit: cover;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        opacity: 0.7;
+        margin: 10px;
+    }
+    .row {
+        display: block!important;
+        flex-wrap: nowrap!important;
+    }
+    .section-2 {
+        padding: 2em;
+    }
+    main h1 {
+        font-size: 30px;
+    }
+    main p {
+        font-size: 15px;
+    }
+    main img {
+        width: 250px;
+        height: 250px;
+    }
+    .section-2 img {
+        margin-left: 1em!important;
+        margin-top: 3em;
+    }
+    .section3 {
+        width: auto !important;
+        margin: 0;
+        padding-right: 2em;
+        padding-left: 1em;
+    }
+    .section3 p {
+        width: auto;
+    }
+    .section3 img {
+        margin-bottom: 1.5em;
+        margin-right: 0em;
+        padding: 0em;
+    }
+    .footer .footer-content {
+        width: 100%;
+    }
+    .footer .footer-content .footer-Section {
+        padding: 0px;
+        padding-top: 2em;
+        margin-left: -4em;
+    }
+    .footer .footer-content .links {
+        width: 50%;
+    }
+    .About p {
+        margin-left: 2em;
+        font-size: 5px;
+    }
+    .footer .footer-content .links ul a li {
+        margin-left: 15em;
+    }
+    .footer .footer-content .links ul a li:hover {
+        margin-left: 14em;
     }
 }
 
@@ -916,6 +1096,147 @@ main img {
         margin-bottom: 1.5em;
         margin-right: 0em;
         padding: 0em;
+    }
+    .footer .footer-content {
+        width: 100%;
+    }
+    .footer .footer-content .footer-Section {
+        padding: 0px;
+        padding-top: 2em;
+        margin-left: -4em;
+    }
+    .footer .footer-content .links {
+        width: 50%;
+    }
+    .About p {
+        margin-left: 2em;
+        font-size: 5px;
+    }
+    .footer .footer-content .links ul a li {
+        margin-left: 15em;
+    }
+    .footer .footer-content .links ul a li:hover {
+        margin-left: 14em;
+    }
+}
+
+@media only screen and (max-width:393px) {
+    .navbar-toggler-icon {
+        width: 1em;
+        height: 1em;
+        margin: .5em;
+    }
+    .navbar-toggler {
+        margin-left: 7em;
+    }
+    .navbar .site-title {
+        font-size: 1em!important;
+    }
+    .navbar-brand {
+        padding-left: 1rem;
+    }
+    .nav-item {
+        font-size: 1em;
+    }
+    .content {
+        padding: 0em;
+        width: 300px;
+        height: 50px;
+        margin-top: 0em;
+        margin-left: 2em;
+    }
+    .content h1 {
+        width: 300px;
+        height: 100px;
+        font-size: 40px;
+        margin-left: 5px;
+    }
+    .feature p {
+        width: 300px;
+        height: 0em;
+        height: 0;
+        font-size: 20px;
+        margin-left: 0em;
+        margin-bottom: 1em;
+    }
+    span {
+        margin: 5px;
+    }
+    .content a {
+        position: absolute;
+        font-size: 15px;
+        margin-left: 0em;
+        left: 30%!important;
+        top: 155%;
+    }
+    #featured {
+        margin-top: 2em !important;
+        margin-left: 1em;
+        width: 300px;
+        height: 300px;
+    }
+    .thumbnail-imgs {
+        margin-left: 2em;
+        margin-top: 10em!important;
+    }
+    .thumbnail {
+        max-width: 600px;
+        max-height: 600px;
+        margin-top: 5em;
+        margin-left: 5em;
+    }
+    .thumbnails {
+        object-fit: cover;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        opacity: 0.7;
+        margin: 10px;
+    }
+    .row {
+        display: block!important;
+        flex-wrap: nowrap!important;
+    }
+    .contaner-fluid {
+        padding: 0em !important;
+        margin: 0em !important;
+    }
+    .section-2 {
+        padding: 1em;
+    }
+    .section3 {
+        width: auto !important;
+        margin: 0em;
+        padding: 0em;
+    }
+    .section3 p {
+        padding: 0!important;
+        margin: 0!important;
+    }
+    main h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    main p {
+        font-size: 15px;
+    }
+    main img {
+        width: 300px;
+        height: 300px;
+    }
+    .section-2 img {
+        margin-left: 1em!important;
+        margin-top: 3em;
+    }
+    .section3 {
+        margin: 0;
+        padding: 0;
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+    .section3 img {
+        margin-bottom: 1.5em;
+        margin-left: 1em !important;
     }
     .footer .footer-content {
         width: 100%;
